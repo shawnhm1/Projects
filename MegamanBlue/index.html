@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Megaman Blue!</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./animation.js"></script>
+    <script type="text/javascript" src="./enemies.js"></script>
+    <script type="text/javascript" src="./dummyEnemies.js"></script>
+    <script type="text/javascript" src="./boss.js"></script>
+    <script type="text/javascript" src="./player.js"></script>
+    <script type="text/javascript" src="./camera.js"></script>
+    <script type="text/javascript" src="./level.js"></script>
+    <script type="text/javascript" src="./weapons.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <link rel='shortcut icon' href='./img/favicon.ico' type='image/x-icon'/ >
+</head>
+<body>
+	<div class="jumbotron text-center">
+        <h1>Megaman Blue!</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./img/Controls.png" class="img-responsive">
+            </div>
+            <div class="col-md-8">
+                <canvas id="gameWorld" class="img-responsive" tabindex="1" width="774" height="690" style="border: 1px solid purple; background: lightskyblue"></canvas>
+            </div>
+        </div>
+
+        <div class="row" id="credits">
+            <div class="jumbotron text-center">
+                <h1>Credits</h1>
+            </div>
+            <div class="col-md-6">
+                <div class="well">
+                    <h2>Sprites</h2>
+                    <p>Most sprites are from <a href="http://www.spriters-resource.com/">Spriter's Resource</a></p>
+                    <ul>
+                        <li>In the specifics, Jawa and Tusken Raider ripped by Tonberry2k and ant19831983. Can be found <a href="http://www.spriters-resource.com/snes/superstarwars/sheet/11051/">here.</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="well">
+                    <h2>Sounds</h2>
+                    <p>Sounds mostly from <a href="www.sounds-resource.com">Sounds Resource.</a></p>
+                    <ul>
+                        <li>Megaman sounds ripped from Serious Sam: The First Encounter, can be found <a href="http://www.sounds-resource.com/pc_computer/serioussamtfe/">here.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+#credits {
+	font-size: 12pt;
+}
+
+#credits h1 {
+	font-size: 40pt;
+}
+
+#credits .jumbotron {
+	margin: 10px;
+	padding: 10px;
+	background-color: #CAC4CE;
+}
+
+#credits .well {
+	background-color: #F7ECE1;
+	border-color: #242038;
+}
+
+img {
+	border: 3px solid #242038;
+}
+
+body {
+	background-color: #8D86C9;
+	color: #003432;
+}
+
+.jumbotron {
+	color: #003331;
+	background-color: #9067C6;
+	border: 1px solid #242038;
+}
